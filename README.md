@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@esm/index.mjs';
+import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-esm/index.mjs';
 ```
 
 #### isEqualInt8Array( v1, v2 )
@@ -84,7 +84,7 @@ bool = isEqualInt8Array( x, new Int8Array( [ 1, 3 ] ) );
 <script type="module">
 
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@esm/index.mjs';
-import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@esm/index.mjs';
+import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-esm/index.mjs';
 
 var x = new Int8Array( [ 1, 2, 3 ] );
 var y = new Int8Array( [ 1, 2, 3 ] );
