@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@deno/mod.js';
+import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-deno/mod.js';
 ```
 
 #### isEqualInt8Array( v1, v2 )
@@ -79,7 +79,7 @@ bool = isEqualInt8Array( x, new Int8Array( [ 1, 3 ] ) );
 
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@deno/mod.js';
+import isEqualInt8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-deno/mod.js';
 
 var x = new Int8Array( [ 1, 2, 3 ] );
 var y = new Int8Array( [ 1, 2, 3 ] );
