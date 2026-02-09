@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isEqualInt8Array = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-equal-int8array/tags). For example,
+
+```javascript
 isEqualInt8Array = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isEqualInt8Array = require( 'path/to/vendor/umd/assert-is-equal-int8array/in
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -106,7 +111,7 @@ bool = isEqualInt8Array( x, new Int8Array( [ 1, 3 ] ) );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int8array@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
